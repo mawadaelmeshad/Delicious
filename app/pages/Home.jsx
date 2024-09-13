@@ -37,7 +37,7 @@ function Home() {
 
     return (
         <div className="home py-4"> 
-            <h3 style={{color:"#4FA512"}} className='text-center mb-4'>Find Delicious Meals ♥ ...</h3>
+            <h3 style={{color:"#4FA512"}} className='text-center mb-4 text-2xl'>Find Delicious Meals ♥ ...</h3>
             <MDBInputGroup tag="form" className='flex w-auto mb-3 mx-16'>
                 <input className='form-control' placeholder="Search By Recipe name" aria-label="Search" type='Search' onChange={e => setSearchTerm(e.target.value)} />
             </MDBInputGroup>

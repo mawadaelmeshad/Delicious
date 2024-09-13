@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Pangolin';
+    src: url('../fonts/Pangolin/Pangolin-Regular.ttf') format('woff2'),
+            url('../fonts/Pangolin/Pangolin-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body, * {
+    font-family: 'Pangolin', sans-serif;
+}
